@@ -1,0 +1,16 @@
+public string FizzBuzz(int number)
+{
+
+    var answer = "";
+
+if(numner % 3 == 0)
+  {
+    answer = "fizz";
+  }
+
+if(number % 5 == 0)
+{
+    answer += "buzz";
+}  
+
+}
